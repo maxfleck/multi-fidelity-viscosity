@@ -1,0 +1,653 @@
+[
+    {
+        "identifier": {
+            "cas": "74-82-8",
+            "name": "methane",
+            "iupac_name": "methane",
+            "smiles": "C",
+            "inchi": "InChI=1/CH4/h1H4",
+            "formula": "CH4"
+        },
+        "model_record": {
+            "m": 1.0,
+            "sigma": 3.7038879999999996,
+            "epsilon_k": 150.034
+        },
+        "chemical_record": {
+            "molarweight": 16.0426
+        },
+        "molarweight": 16.0426
+    },
+
+    {
+        "identifier": {
+            "cas": "74-84-0",
+            "name": "ethane",
+            "iupac_name": "ethane",
+            "smiles": "CC",
+            "inchi": "InChI=1/C2H6/c1-2/h1-2H3",
+            "formula": "C2H6"
+        },
+        "model_record": {
+            "m": 1.6063120000000002,
+            "sigma": 3.5210449999999995,
+            "epsilon_k": 191.4493,
+            "q": 0.65
+        },
+        "chemical_record": {
+            "molarweight": 30.0694
+        },
+        "molarweight": 30.0694
+    },
+    
+    {
+        "identifier": {
+            "cas": "74-84-0",
+            "name": "ethanetest",
+            "iupac_name": "ethanetest",
+            "smiles": "CC",
+            "inchi": "InChI=1/C2H6/c1-2/h1-2H3",
+            "formula": "C2H6"
+        },
+        "model_record": {
+            "m": 1.606,
+            "sigma": 3.514131763173756,
+            "epsilon_k": 191.29866689594175
+        },
+        "chemical_record": {
+            "molarweight": 30.0694
+        },
+        "molarweight": 30.0694
+    },    
+    
+    {
+        "identifier": {
+            "cas": "107-15-3",
+            "name": "ethylenediamine",
+            "smiles": "NCCN",
+            "inchi": "InChI=1/C2H8N2/c3-1-2-4/h1-4H2",
+            "formula": "C2H8N2"
+        },
+        "model_record": {
+            "m": 2.54339,
+            "sigma": 3.33121,
+            "epsilon_k": 263.16700000000003,
+            "mu": 1.90067,
+            "kappa_ab": 0.110723,
+            "epsilon_k_ab": 1629.14
+        },
+        "chemical_record": {
+            "molarweight": 60.0986,
+            "h_bond_donor_count": 2,
+            "h_bond_acceptor_count": 2
+        },
+        "molarweight": 60.0986
+    },    
+
+    {
+        "identifier": {
+            "cas": "141-43-5",
+            "name": "monoethanolamine",
+            "iupac_name": "2-aminoethanol",
+            "smiles": "NCCO",
+            "inchi": "InChI=1/C2H7NO/c3-1-2-4/h4H,1-3H2",
+            "formula": "C2H7NO"
+        },
+        "model_record": {
+            "m": 3.342,
+            "sigma": 2.955,
+            "epsilon_k": 289.2,
+            "mu": 0.776,
+            "kappa_ab": 0.03,
+            "epsilon_k_ab": 2117.4
+        },
+        "chemical_record": {
+            "molarweight": 61.0834,
+            "h_bond_donor_count": 2,
+            "h_bond_acceptor_count": 2
+        },
+        "molarweight": 61.0834
+    },
+    
+
+    {
+        "identifier": {
+            "cas": "115-10-6",
+            "name": "dimethylether",
+            "iupac_name": "methoxymethane",
+            "smiles": "COC",
+            "inchi": "InChI=1/C2H6O/c1-3-2/h1-2H3",
+            "formula": "C2H6O"
+        },
+        "model_record": {
+            "m": 2.2634,
+            "sigma": 3.2723,
+            "epsilon_k": 210.29,
+            "mu": 1.3
+        },
+        "chemical_record": {
+            "molarweight": 46.0688,
+            "h_bond_donor_count": 1,
+            "h_bond_acceptor_count": 1
+        },
+        "molarweight": 46.0688
+    },
+
+    {
+        "identifier": {
+            "cas": "74-98-6",
+            "name": "propane",
+            "iupac_name": "propane",
+            "smiles": "CCC",
+            "inchi": "InChI=1/C3H8/c1-3-2/h3H2,1-2H3",
+            "formula": "C3H8"
+        },
+        "model_record": {
+            "m": 2.0018290000000003,
+            "sigma": 3.618353,
+            "epsilon_k": 208.1101
+        },
+        "chemical_record": {
+            "molarweight": 44.0962
+        },
+        "molarweight": 44.0962
+    },
+    
+    {
+        "identifier": {
+            "cas": "106-97-8",
+            "name": "butane",
+            "iupac_name": "butane",
+            "smiles": "CCCC",
+            "inchi": "InChI=1/C4H10/c1-3-4-2/h3-4H2,1-2H3",
+            "formula": "C4H10"
+        },
+        "model_record": {
+            "m": 2.331586,
+            "sigma": 3.7086010000000003,
+            "epsilon_k": 222.8774
+        },
+        "chemical_record": {
+            "molarweight": 58.123
+        },
+        "molarweight": 58.123
+    },
+    
+    {
+        "identifier": {
+            "cas": "109-66-0",
+            "name": "pentane",
+            "iupac_name": "pentane",
+            "smiles": "CCCCC",
+            "inchi": "InChI=1/C5H12/c1-3-5-4-2/h3-5H2,1-2H3",
+            "formula": "C5H12"
+        },
+        "model_record": {
+            "m": 2.6895279999999997,
+            "sigma": 3.772932,
+            "epsilon_k": 231.197
+        },
+        "chemical_record": {
+            "molarweight": 72.1498
+        },
+        "molarweight": 72.1498
+    },    
+    
+    {
+        "identifier": {
+            "cas": "110-54-3",
+            "name": "hexane",
+            "iupac_name": "hexane",
+            "smiles": "CCCCCC",
+            "inchi": "InChI=1/C6H14/c1-3-5-6-4-2/h3-6H2,1-2H3",
+            "formula": "C6H14"
+        },
+        "model_record": {
+            "m": 3.0576659999999998,
+            "sigma": 3.798293,
+            "epsilon_k": 236.7691
+        },
+        "chemical_record": {
+            "molarweight": 86.1766
+        },
+        "molarweight": 86.1766
+    },
+    
+    {
+        "identifier": {
+            "cas": "110-54-3",
+            "name": "hexane",
+            "iupac_name": "hexane",
+            "smiles": "CCCCCC",
+            "inchi": "InChI=1/C6H14/c1-3-5-6-4-2/h3-6H2,1-2H3",
+            "formula": "C6H14"
+        },
+        "model_record": {
+            "m": 3.0576659999999998,
+            "sigma": 3.798293,
+            "epsilon_k": 236.7691
+        },
+        "chemical_record": {
+            "molarweight": 86.1766
+        },
+        "molarweight": 86.1766
+    },
+
+    {
+        "identifier": {
+            "cas": "75-04-7",
+            "name": "ethylamine",
+            "iupac_name": "ethanamine",
+            "smiles": "CCN",
+            "inchi": "InChI=1/C2H7N/c1-2-3/h2-3H2,1H3",
+            "formula": "C2H7N"
+        },
+        "model_record": {
+            "m": 2.7046,
+            "sigma": 3.1343,
+            "epsilon_k": 221.53,
+            "kappa_ab": 0.017275,
+            "epsilon_k_ab": 854.7
+        },
+        "chemical_record": {
+            "molarweight": 45.084,
+            "h_bond_donor_count": 1,
+            "h_bond_acceptor_count": 1
+        },
+        "molarweight": 45.084
+    },
+
+
+    {
+        "identifier": {
+            "cas": "107-10-8",
+            "name": "propylamine",
+            "iupac_name": "propan-1-amine",
+            "smiles": "CCCN",
+            "inchi": "InChI=1/C3H9N/c1-2-3-4/h2-4H2,1H3",
+            "formula": "C3H9N"
+        },
+        "model_record": {
+            "m": 2.4539,
+            "sigma": 3.5347,
+            "epsilon_k": 250.52,
+            "kappa_ab": 0.022674,
+            "epsilon_k_ab": 1028.1
+        },
+        "chemical_record": {
+            "molarweight": 59.1108,
+            "h_bond_donor_count": 1,
+            "h_bond_acceptor_count": 1
+        },
+        "molarweight": 59.1108
+    },
+
+    {
+        "identifier": {
+            "cas": "109-73-9",
+            "name": "butylamine",
+            "iupac_name": "butan-1-amine",
+            "smiles": "CCCCN",
+            "inchi": "InChI=1/C4H11N/c1-2-3-4-5/h2-5H2,1H3",
+            "formula": "C4H11N"
+        },
+        "model_record": {
+            "m": 1.04471,
+            "sigma": 5.19569,
+            "epsilon_k": 394.897,
+            "mu": 1.39103,
+            "kappa_ab": 0.00496044,
+            "epsilon_k_ab": 1865.84
+        },
+        "chemical_record": {
+            "molarweight": 73.1376,
+            "h_bond_donor_count": 1,
+            "h_bond_acceptor_count": 1
+        },
+        "molarweight": 73.1376
+    },
+    
+    {
+        "identifier": {
+            "cas": "111-26-2",
+            "name": "hexylamine",
+            "iupac_name": "hexan-1-amine",
+            "smiles": "CCCCCCN",
+            "inchi": "InChI=1/C6H15N/c1-2-3-4-5-6-7/h2-7H2,1H3",
+            "formula": "C6H15N"
+        },
+        "model_record": {
+            "m": 3.95056,
+            "sigma": 3.5434099999999997,
+            "epsilon_k": 247.30900000000003,
+            "mu": 1.58889
+        },
+        "chemical_record": {
+            "molarweight": 101.1912,
+            "h_bond_donor_count": 1,
+            "h_bond_acceptor_count": 1
+        },
+        "molarweight": 101.1912
+    },    
+    
+    
+    {
+        "identifier": {
+            "cas": "115-10-6",
+            "name": "dimethylether",
+            "iupac_name": "methoxymethane",
+            "smiles": "COC",
+            "inchi": "InChI=1/C2H6O/c1-3-2/h1-2H3",
+            "formula": "C2H6O"
+        },
+        "model_record": {
+            "m": 2.2634,
+            "sigma": 3.2723,
+            "epsilon_k": 210.29,
+            "mu": 1.3
+        },
+        "chemical_record": {
+            "molarweight": 46.0688,
+            "h_bond_donor_count": 1,
+            "h_bond_acceptor_count": 1
+        },
+        "molarweight": 46.0688
+    },
+
+    {
+        "identifier": {
+            "cas": "67-64-1",
+            "name": "acetone",
+            "iupac_name": "propan-2-one",
+            "smiles": "CC(C)=O",
+            "inchi": "InChI=1/C3H6O/c1-3(2)4/h1-2H3",
+            "formula": "C3H6O"
+        },
+        "model_record": {
+            "m": 2.7447,
+            "sigma": 3.2742,
+            "epsilon_k": 232.99,
+            "mu": 2.88
+        },
+        "chemical_record": {
+            "molarweight": 58.0798,
+            "h_bond_donor_count": 1,
+            "h_bond_acceptor_count": 1
+        },
+        "molarweight": 58.0798
+    },
+    {
+        "identifier": {
+            "cas": "106-98-9",
+            "name": "butene",
+            "iupac_name": "but-1-ene",
+            "smiles": "CCC=C",
+            "inchi": "InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3",
+            "formula": "C4H8"
+        },
+        "model_record": {
+            "m": 2.28649,
+            "sigma": 3.6430599999999997,
+            "epsilon_k": 222.003
+        },
+        "chemical_record": {
+            "molarweight": 56.1072
+        },
+        "molarweight": 56.1072
+    },
+
+    {
+        "identifier": {
+            "cas": "67-56-1",
+            "name": "methanol",
+            "iupac_name": "methanol",
+            "smiles": "CO",
+            "inchi": "InChI=1/CH4O/c1-2/h2H,1H3",
+            "formula": "CH4O"
+        },
+        "model_record": {
+            "m": 1.5255,
+            "sigma": 3.23,
+            "epsilon_k": 188.9,
+            "kappa_ab": 0.035176,
+            "epsilon_k_ab": 2899.5
+        },
+        "chemical_record": {
+            "molarweight": 32.042,
+            "h_bond_donor_count": 1,
+            "h_bond_acceptor_count": 1
+        },
+        "molarweight": 32.042
+    },
+
+    {
+        "identifier": {
+            "cas": "64-17-5",
+            "name": "ethanol",
+            "iupac_name": "ethanol",
+            "smiles": "CCO",
+            "inchi": "InChI=1/C2H6O/c1-2-3/h3H,2H2,1H3",
+            "formula": "C2H6O"
+        },
+        "model_record": {
+            "m": 2.3827,
+            "sigma": 3.1771,
+            "epsilon_k": 198.24,
+            "kappa_ab": 0.032383999999999996,
+            "epsilon_k_ab": 2653.4
+        },
+        "chemical_record": {
+            "molarweight": 46.0688,
+            "h_bond_donor_count": 1,
+            "h_bond_acceptor_count": 1
+        },
+        "molarweight": 46.0688
+    },
+ 
+     {
+        "identifier": {
+            "cas": "71-23-8",
+            "name": "propanol",
+            "iupac_name": "propan-1-ol",
+            "smiles": "CCCO",
+            "inchi": "InChI=1/C3H8O/c1-2-3-4/h4H,2-3H2,1H3",
+            "formula": "C3H8O"
+        },
+        "model_record": {
+            "m": 2.9997,
+            "sigma": 3.2522,
+            "epsilon_k": 233.4,
+            "kappa_ab": 0.015268,
+            "epsilon_k_ab": 2276.8
+        },
+        "chemical_record": {
+            "molarweight": 60.0956,
+            "h_bond_donor_count": 1,
+            "h_bond_acceptor_count": 1
+        },
+        "molarweight": 60.0956
+    },
+    
+    {
+        "identifier": {
+            "cas": "71-36-3",
+            "name": "butanol",
+            "iupac_name": "butan-1-ol",
+            "smiles": "CCCCO",
+            "inchi": "InChI=1/C4H10O/c1-2-3-4-5/h5H,2-4H2,1H3",
+            "formula": "C4H10O"
+        },
+        "model_record": {
+            "m": 2.7515,
+            "sigma": 3.6139,
+            "epsilon_k": 259.59,
+            "kappa_ab": 0.006692,
+            "epsilon_k_ab": 2544.6
+        },
+        "chemical_record": {
+            "molarweight": 74.1224,
+            "h_bond_donor_count": 1,
+            "h_bond_acceptor_count": 1
+        },
+        "molarweight": 74.1224
+    },    
+
+    {
+        "identifier": {
+            "cas": "71-41-0",
+            "name": "pentanol",
+            "iupac_name": "pentan-1-ol",
+            "smiles": "CCCCCO",
+            "inchi": "InChI=1/C5H12O/c1-2-3-4-5-6/h6H,2-5H2,1H3",
+            "formula": "C5H12O"
+        },
+        "model_record": {
+            "m": 3.6260000000000003,
+            "sigma": 3.4508,
+            "epsilon_k": 247.28,
+            "kappa_ab": 0.010319,
+            "epsilon_k_ab": 2252.1
+        },
+        "chemical_record": {
+            "molarweight": 88.1492,
+            "h_bond_donor_count": 1,
+            "h_bond_acceptor_count": 1
+        },
+        "molarweight": 88.1492
+    },
+
+    {
+        "identifier": {
+            "cas": "513-53-1",
+            "name": "butanethiol",
+            "iupac_name": "butanethiol",
+            "smiles": "CCCCS",
+            "inchi": "InChI=",
+            "formula": "C4H12S"
+        },
+        "model_record": {
+            "m": 2.602,
+            "sigma": 3.80053,
+            "epsilon_k": 273.756,
+            "mu": 1.6008799999999999,
+            "kappa_ab": 0.00492307,
+            "epsilon_k_ab": 703.306
+        },
+        "chemical_record": {
+            "molarweight": 90.19
+        },
+        "molarweight": 90.19
+    },
+    
+    {
+        "identifier": {
+            "cas": "592-76-7",
+            "name": "heptene",
+            "iupac_name": "hept-1-ene",
+            "smiles": "CCCCCC=C",
+            "inchi": "InChI=1/C7H14/c1-3-5-7-6-4-2/h3H,1,4-7H2,2H3",
+            "formula": "C7H14"
+        },
+        "model_record": {
+            "m": 3.28674,
+            "sigma": 3.8136300000000003,
+            "epsilon_k": 243.739,
+            "mu": 0.629559
+        },
+        "chemical_record": {
+            "molarweight": 98.1876
+        },
+        "molarweight": 98.1876
+    },
+    {
+        "identifier": {
+            "cas": "111-84-2",
+            "name": "nonane",
+            "iupac_name": "nonane",
+            "smiles": "CCCCCCCCC",
+            "inchi": "InChI=1/C9H20/c1-3-5-7-9-8-6-4-2/h3-9H2,1-2H3",
+            "formula": "C9H20"
+        },
+        "model_record": {
+            "m": 4.207403,
+            "sigma": 3.844836,
+            "epsilon_k": 244.5085
+        },
+        "chemical_record": {
+            "molarweight": 128.257
+        },
+        "molarweight": 128.257
+    },    
+    
+    {
+        "identifier": {
+            "cas": "75-07-0",
+            "name": "ethanal",
+            "iupac_name": "acetaldehyde",
+            "smiles": "CC=O",
+            "inchi": "InChI=1/C2H4O/c1-2-3/h2H,1H3",
+            "formula": "C2H4O"
+        },
+        "model_record": {
+            "m": 2.391885,
+            "sigma": 3.089469,
+            "epsilon_k": 223.6007,
+            "mu": 2.5
+        },
+        "chemical_record": {
+            "molarweight": 44.053,
+            "h_bond_donor_count": 1,
+            "h_bond_acceptor_count": 1
+        },
+        "molarweight": 44.053
+    },    
+    
+    {
+        "identifier": {
+            "cas": "111-71-7",
+            "name": "heptanal",
+            "iupac_name": "heptanal",
+            "smiles": "CCCCCCC=O",
+            "inchi": "InChI=1/C7H14O/c1-2-3-4-5-6-7-8/h7H,2-6H2,1H3",
+            "formula": "C7H14O"
+        },
+        "model_record": {
+            "m": 3.84197,
+            "sigma": 3.6635699999999995,
+            "epsilon_k": 261.061,
+            "mu": 2.57819
+        },
+        "chemical_record": {
+            "molarweight": 114.187,
+            "h_bond_donor_count": 1,
+            "h_bond_acceptor_count": 1
+        },
+        "molarweight": 114.187
+    },    
+    
+    {
+        "identifier": {
+            "cas": "107-21-1",
+            "name": "ethanediol",
+            "iupac_name": "ethane-1,2-diol",
+            "smiles": "OCCO",
+            "inchi": "InChI=1/C2H6O2/c3-1-2-4/h3-4H,1-2H2",
+            "formula": "C2H6O2"
+        },
+        "model_record": {
+            "m": 3.574546,
+            "sigma": 2.8059540000000003,
+            "epsilon_k": 255.6438,
+            "mu": 2.410312,
+            "kappa_ab": 0.1294968,
+            "epsilon_k_ab": 2439.634
+        },
+        "chemical_record": {
+            "molarweight": 62.0682,
+            "h_bond_donor_count": 2,
+            "h_bond_acceptor_count": 2
+        },
+        "molarweight": 62.0682
+    }           
+    
+]
