@@ -24,21 +24,28 @@ Core of this repository. The entire approach can be reproduced using this notebo
 
 Creates a reference based on all available data. Intended for comparison with the actual low-data approach.
 
-## files
 
-### entropy_scaling.py
+## folders
+
+### multi_fidelity_viscosity
+
+Contains .py files with main code base of the project
+
+#### entropy_scaling.py
 
 Implementation of the core functions of our entropy scaling approach.
 
-### multi_entropy_utils.py
+#### multi_entropy_utils.py
 
 Useful functions that build on entropy scaling and multi-fidelity approach.
-
-## folders
 
 ### simulations
 
 Contains all simulation results in a excel sheet
+
+### pcsaft
+
+Contains pc-saft parameter files for FeOs
 
 ### butanol, propane, ...
 

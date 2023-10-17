@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.optimize import minimize,curve_fit
 
-from entropy_scaling import *
+from multi_fidelity_viscosity.entropy_scaling import *
 
 import GPy
 from emukit.model_wrappers import GPyModelWrapper
