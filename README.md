@@ -10,7 +10,7 @@ The model relies on the univariate relationship between the reduced shear viscos
 
 
 builds on:
-- [`FeOs`](https://github.com/vuejs/vue)
+- [`FeOs`](https://github.com/feos-org/feos)
 - [`GPy`](https://github.com/SheffieldML/GPy)
 - [`emukit`](https://github.com/EmuKit/emukit)
 
