@@ -232,6 +232,14 @@ def get_superspace_error(xref, yref, normer, f):
     dummy = backtranslate(xref, normer, f)
     return np.mean( np.abs( (dummy - yref)/yref ) )*100    
 
+def get_entropy_log_error(xref, yref, f):
+    dummy, _ = f.predict(xref)
+    return np.mean( np.abs( np.log(dummy / yref) ) )*100
+
+def get_superspace_log_error(xref, yref, normer, f):
+    dummy = backtranslate(xref, normer, f)
+    return np.mean( np.abs( np.log(dummy / yref) ) )*100    
+
 def backtranslate(xref, normer, f):
     dummy, _ = f.predict(xref)
     return  np.squeeze( np.exp(dummy)*normer )
