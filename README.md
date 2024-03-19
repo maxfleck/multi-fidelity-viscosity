@@ -1,13 +1,13 @@
 # multi-fidelity-viscosity
 
+For more details check our [publication](https://doi.org/10.1021/acs.iecr.3c03931).
+
 Linear Multi-fidelity model based on Gaussian Process regression 
 can be used to combine qualitative descriptioons known from simulations and quantitative accuracy from a few simulations to obtain something thats better than both on their own. 
 
 Shear viscosities from a few molecular dynamics simulations as well as a few experimental shear viscosities enable a high-quality prediction of this transport property over a large range of thermodynamic state points.
 
 The model relies on the univariate relationship between the reduced shear viscosity and the reduced residual entropy allowing the molecular simulation to extrapolate to regions not covered by the experimental training data.
-
-
 
 builds on:
 - [`FeOs`](https://github.com/feos-org/feos)
@@ -50,3 +50,18 @@ Contains pc-saft parameter files for FeOs
 ### butanol, propane, ...
 
 Contains result plots and experimental data for the respective species
+
+### cite this
+
+If you find this repo useful for your own scientific studies, consider citing our [publication](https://doi.org/10.1021/acs.iecr.3c03931) accompanying this library.
+
+```
+@article{fleck2024multifidelity,
+  title={Multifidelity Gaussian Processes for Predicting Shear Viscosity over Wide Ranges of Liquid State Points Based on Molecular Dynamics Simulations},
+  author={Fleck, Maximilian and Gross, Joachim and Hansen, Niels},
+  journal={Industrial \& Engineering Chemistry Research},
+  year={2024},
+  publisher={ACS Publications}
+}
+```
+
