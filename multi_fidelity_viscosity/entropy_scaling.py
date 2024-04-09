@@ -79,6 +79,11 @@ def get_CE_viscosity_reference(temperature, density, saft_parameters):
     #return np.ones(len(temperature)) *PASCAL*SECOND *np.min(viscosity_reference/PASCAL/SECOND)
     return viscosity_reference
 
+def get_modCE_viscosity_reference(temperature, density, saft_parameters):
+    m = saft_parameters.pure_records[0].model_record.m
+    return get_CE_viscosity_reference(temperature, density, saft_parameters)/m
+    
+    
 
 class LJ_mayer_kabelac():
     """
