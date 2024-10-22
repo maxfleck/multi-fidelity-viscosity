@@ -184,7 +184,7 @@ def get_thermal_conductivity_reference(temperature, residual_entropies, saft_par
     omega22 = get_omega22(red_temperature)
 
     eos = EquationOfState.pcsaft(saft_parameters)
-    residual_entropie_crit = State.critical_point(eos).specific_entropy(Contributions.ResidualNvt)/ KB /NAV *M/m
+    residual_entropie_crit = State.critical_point(eos).specific_entropy(Contributions.Residual)/ KB /NAV *M/m
 
     alpha_visc = np.exp(-1.0 * (residual_entropies / residual_entropie_crit))
     ref_CE = (83.235 / 10.0**3) * (temperature/KELVIN / M * (GRAM / MOL) / m)**0.5 / sigma**2*ANGSTROM**2 / omega22 * m
