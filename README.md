@@ -10,7 +10,7 @@ Shear viscosities from a few molecular dynamics simulations as well as a few exp
 The model relies on the univariate relationship between the reduced shear viscosity and the reduced residual entropy allowing the molecular simulation to extrapolate to regions not covered by the experimental training data.
 
 builds on:
-- [`FeOs`](https://github.com/feos-org/feos)
+- [`FeOs`](https://github.com/feos-org/feos) (use version 0.4.3)
 - [`GPy`](https://github.com/SheffieldML/GPy)
 - [`emukit`](https://github.com/EmuKit/emukit)
 

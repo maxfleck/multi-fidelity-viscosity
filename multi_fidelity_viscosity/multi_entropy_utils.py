@@ -67,7 +67,7 @@ def viscosity_prho_entropy_space( dummy, parameters, viscosity_reference,
             residual_entropies.append( 100000000000 )
             print("miss")
             continue
-        s0 = state.specific_entropy(Contributions.Residual)/ KB /NAV *M/m
+        s0 = state.specific_entropy(Contributions.ResidualNvt)/ KB /NAV *M/m
         residual_entropies.append(s0)
     
     dummy["densities"] = d_helper * rho_SI
@@ -89,12 +89,12 @@ def viscosity_entropy_space( dummy, parameters, x_measure="" ):
     if x_measure == "pressure":
         for t,d in zip(dummy["temperatures"], dummy["pressures"]):
             state = State(eos, temperature=t, pressure=d )
-            s0 = state.specific_entropy(Contributions.Residual)/ KB /NAV *M/m
+            s0 = state.specific_entropy(Contributions.ResidualNvt)/ KB /NAV *M/m
             residual_entropies.append(s0)
     else:            
         for t,d in zip(dummy["temperatures"], dummy["densities"]):
             state = State(eos, temperature=t, density=d/M)
-            s0 = state.specific_entropy(Contributions.Residual)/ KB /NAV *M/m
+            s0 = state.specific_entropy(Contributions.ResidualNvt)/ KB /NAV *M/m
             residual_entropies.append(s0)
 
     dummy["residual_entropies"] = np.array(residual_entropies)
