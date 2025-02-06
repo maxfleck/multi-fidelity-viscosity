@@ -2,7 +2,7 @@
 
 > [!IMPORTANT]
 >
->IF YOURE LOOKING FOR THE GITHUB OF "Physics-informed multi-fidelity Gaussian process: modeling the effect of water and temperature on the viscosity of a deep eutectic solvent":
+> New publication on this topic: "Physics-informed multi-fidelity Gaussian process: modeling the effect of water and temperature on the viscosity of a deep eutectic solvent":
 >
 >[### PLEASE GO HERE ###](https://github.com/maxfleck/DES_multifidelity_eyring)
 >
