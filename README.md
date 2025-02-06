@@ -1,5 +1,10 @@
 # multi-fidelity-viscosity
 
+IF YOURE LOOKING FOR THE GITHUB OF "Physics-informed multi-fidelity Gaussian process: modeling the effect of water and temperature on the viscosity of a deep eutectic solvent":
+
+[### PLEASE GO HERE ###](https://github.com/maxfleck/DES_multifidelity_eyring)
+
+
 For more details check our [publication](https://doi.org/10.1021/acs.iecr.3c03931).
 
 Linear Multi-fidelity model based on Gaussian Process regression 
