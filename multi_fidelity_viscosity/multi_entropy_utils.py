@@ -267,7 +267,7 @@ def superspace_plot( xdata, ydata, yfill, markers, colors, labels, save="",
                             facecolor=colors[i], alpha=alpha)
     
     plt.xlabel("temperature / K", fontsize=fsize)
-    plt.ylabel("$\eta$ / Pas", fontsize=fsize)
+    plt.ylabel("$\eta$ / mPas", fontsize=fsize)
     plt.legend(fontsize=fsize,frameon=False)
     plt.xticks(fontsize=fsize)
     plt.yticks(fontsize=fsize)    
